@@ -6,3 +6,4 @@ services:
       - "23:23"
     volumes:
       - ./log:/log
+    restart: always
