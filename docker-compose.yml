@@ -1,0 +1,8 @@
+version: '3'
+services:
+  honeypot:
+    build: honeypot
+    ports:
+      - "23:23"
+    volumes:
+      - ./log:/log
